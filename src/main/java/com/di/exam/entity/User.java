@@ -1,4 +1,4 @@
-package com.di.protal.entity;
+package com.di.exam.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;

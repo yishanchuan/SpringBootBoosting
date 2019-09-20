@@ -1,4 +1,4 @@
-package com.di.protal.security;
+package com.di.exam.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

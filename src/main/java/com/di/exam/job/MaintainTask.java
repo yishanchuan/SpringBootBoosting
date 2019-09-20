@@ -1,4 +1,4 @@
-package com.di.protal.job;
+package com.di.exam.job;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;

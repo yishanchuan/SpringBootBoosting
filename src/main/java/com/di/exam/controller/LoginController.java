@@ -1,4 +1,4 @@
-package com.di.protal.controller;
+package com.di.exam.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
