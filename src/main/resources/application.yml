@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3606/docin?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT&useSSL=false
+    username: root
+    password: root
+    driver-class-name: org.mariadb.jdbc.Driver
+    data: classpath:data.sql
+    initialization-mode: always
+  thymeleaf:
+    mode: html5
+    cache: false
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      #dialect: org.hibernate.dialect.MariaDB10Dialect
+    show-sql: true
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password:
+logging:
+  config: classpath:log4j2.xml
+debug: false
+server:
+  port: 10080
